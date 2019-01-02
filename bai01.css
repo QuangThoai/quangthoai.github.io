@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  margin: 0;
+  padding: 0;
+}
+#container{
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #0033FF;
+  width: 500px;
+  margin: 0 auto;
+  font-size: 15px;
+}
+.player-title{
+  background: url(images/title_bg.gif) repeat-x;
+  height: 20px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-left: 2px;
+  font-size: 17px;
+}
+.player-info{
+  height: 100px;
+  width: 100%;
+}
+.player-info img{
+  height: 90px;
+  width: 100px;
+  float: left;
+}
+.info{
+  list-style: none;
+  padding-left: 15px;
+  width: 385px;
+  overflow: scroll;
+  height: 100px;
+}
+.facts .player-title{
+  background: none;
+}
+.facts-contain{
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-bottom: 50px;
+  list-style: none;
+  max-width: 400px;
+}
+.facts ul li:before{
+  content: url(images/star.png);
+  margin-right: 5px;
+}
+.comment{
+  margin-top: 30px;
+  font-size: 15px;
+}
+.comment-text{
+  background-color: #ECECEC;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.comment-post{
+  margin-left: 20px;
+  font-size: 13px;
+}
+.comment-post img{
+  width: 25px;
+  height: 15px;
+}
+a{
+  text-decoration: none;
+}
+.your-comment{
+  width: 100%;
+  margin-top: 20px;
+}
+.your-comment table caption{
+  font-size: 17px;
+}
+.your-comment table td {
+  padding-left: 5px;
+  width: 110px;
+}
+.your-comment input {
+  width: 145px;
+}
+.your-comment textarea{
+  width: 370px;
+}
+
