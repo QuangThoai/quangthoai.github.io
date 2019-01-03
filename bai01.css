@@ -31,33 +31,38 @@
 .info{
   list-style: none;
   padding-left: 15px;
-  width: 385px;
+  width: 365px;
   overflow: scroll;
   height: 100px;
+  padding-right: 10px;
 }
 .facts .player-title{
   background: none;
+  padding-top: 20px;
 }
 .facts-contain{
-  margin-top: 20px;
+  margin-top: 15px;
   margin-left: 35px;
   margin-bottom: 50px;
   list-style: none;
   max-width: 400px;
 }
 .facts ul li:before{
-  content: url(images/star.png);
+  content: url("images/star.png");
   margin-right: 5px;
 }
+.facts ul li{
+  padding-bottom: 3px;
+}
 .comment{
-  margin-top: 30px;
+  margin-top: 55px;
   font-size: 15px;
 }
 .comment-text{
   background-color: #ECECEC;
   padding-left: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 8px;
+  padding-bottom: 3px;
 }
 .comment-post{
   margin-left: 20px;
