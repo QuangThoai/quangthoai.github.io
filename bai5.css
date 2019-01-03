@@ -36,7 +36,7 @@ li a img{
   margin-top: 20px;
 }
 li a img:hover{
-  content: url("bai5/background_03.jpg");
+  content: url("images/background_03.jpg");
 }
 .nav-crow{
   height: 61px;
