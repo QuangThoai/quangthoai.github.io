@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1024px;
+  height: 5920px;
+  margin: 0 auto;
+}
+img{
+  margin-top: -4px;
+}
+.menu-product{
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+}
+.menu-product li{
+  width: 50%;
+}
+.menu-product li a{
+  list-style: none;
+  display: flex;
+}
+.btn-click-left{
+  margin-left: 66px;
+}
+.btn-click-right{
+  margin-left: 25px;
+}
+li a img{
+  position: absolute;
+  display: block;
+  margin-top: 20px;
+}
+li a img:hover{
+  content: url("bai5/background_03.jpg");
+}
+.nav-crow{
+  height: 61px;
+  width: 100%;
+}
+.nav-crow img{
+  position: absolute;
+  display:inline;
+}
+.nav-crow a img{
+  margin-left: 822px;
+}
+.nav-footer{
+  height: 38px;
+  width: 1024px;
+  flex-wrap: wrap;
+  display: flex;
+  background-color: #8b1a20;
+  padding-top: 15px;
+}
+ul{
+  list-style: none;
+}
+.nav-footer a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+}
+.nav-footer li{
+  padding-left: 30px;
+}
+.copyr{
+  margin-left: 290px;
+  padding-top: 7px;
+
+}
+
