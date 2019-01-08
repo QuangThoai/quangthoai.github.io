@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.container{
+  font-family:'Times New Roman', Times, serif;
+  width: 500px;
+  margin: 0 auto;
+  font-size: 15px;
+  padding-top: 50px;
+}
+.list-product{
+  width: 100%;
+  margin-top: 40px;
+}
+.list-product-index{
+  background-color: #fff;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.index-product{
+  width: 23px;
+  height: 26px;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #000;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.product-name{
+  position: absolute;
+  display: inline;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+.btn-close{
+  float: right;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
