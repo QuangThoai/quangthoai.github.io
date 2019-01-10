@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  font-family:'Times New Roman', Times, serif;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 15px;
+  padding-top: 50px;
+  color: #00e5ff;
+}

@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.33);
+}
+.container{
+  font-family:'Times New Roman', Times, serif;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 15px;
+  padding-top: 50px;
+}
+.navcalendar{
+  display: none;
+}
+.dis_status{
+  display: none;
+}
+span{
+  color: red;
+}
+.textbox{
+  margin: 0 auto;
+  width: 200px;
+  height: 20px;
+}
+.curr-day{
+  background-color: #fff;
+  color: red;
+}
+.sunday{
+  background-color: #0ab1ce;
+}
+.daysinweek{
+  background-color: #98e4de;
+  color: #fff;
+}
+.control-btn{
+  background-color: #0a6ebd;
+  font-weight: bold;
+  font-size: 20px;
+}
+.tab{
+  color: #000;
+  border: 1px solid #000;
+}
+.tab tr td{
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+select{
+  width: 100%;
+  height: 100%;
+}
+.div-info{
+  width: 100%;
+}
+.div-left{
+  width: 50%;
+  position: relative;
+}
+.div-right{
+  width: 50%;
+  position: relative;
+}
+.btn{
+  width: 70px;
+  height: 40px;
+}

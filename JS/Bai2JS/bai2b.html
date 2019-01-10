@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bài tập 2b JavaScript</title>
+    <link rel="stylesheet" href="bai2.css">
+  </head>
+  <body>
+    <form method="post">
+      <div class="container">
+        <p>User</p>
+        <input type="text" class="textbox" id="user">
+        <span class="dis_status" id="ck_user">User not null and length more than 8 characters</span>
+        <p>PassWord</p>
+        <input type="password" class="textbox" id="password">
+        <span class="dis_status" id="ck_pass">Password not null and length more than 8 characters</span>
+        <p>Email</p>
+        <input type="text" class="textbox" value="" id="email">
+        <span class="dis_status" id="ck_email">Email not null and length more than 8 characters</span>
+        <p>BirdthDay</p>
+        <script lang="javascript" src="bai2b.js"></script>
+        <div id="contain">
+          <input type="text" onclick="showcalendar()" id="datecalendar" class="textbox">
+          <script lang="javascript" src="bai02.js"></script>
+        </div>
+        <input type="button" value="Reset" class="btn" onclick="reset_click()">
+        <input type="button" value="Submit" class="btn" onclick="submit_form()">
+      </div>
+    </form>
+  </body>
+</html>
