@@ -1,5 +1,6 @@
 function add_product(){
     var name=document.getElementById("product_name").value;
+    document.getElementById("product_name").focus();
     var x=name.trim().length;
     if(x==0)
     {
