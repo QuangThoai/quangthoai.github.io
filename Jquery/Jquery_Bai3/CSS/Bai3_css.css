@@ -1,0 +1,29 @@
+.container{
+  width: 100%;
+  height: 600px;
+  background-image: url("images/autumn_leaves1.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  overflow: hidden;
+  position: relative;
+}
+.content{
+  width: 1170px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.khoi-1,.khoi-2,.khoi-3,.khoi-4,.khoi-5{
+  height: 50px;
+  width: 50px;
+  background: #c03737;
+}
+.khoi-2{
+  background: #5c5ca9;
+}
+.khoi-3{
+  background: #d17c34;
+}
+.khoi-4{background: #4a994a;}
+.khoi-5{background: orange}
