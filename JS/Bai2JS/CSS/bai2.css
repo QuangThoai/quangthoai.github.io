@@ -23,10 +23,19 @@ body{
 span{
   color: red;
 }
-.textbox{
+.textbox {
   margin: 0 auto;
   width: 200px;
   height: 20px;
+}
+.textboxbirthday{
+  margin: 0 auto;
+  width: 200px;
+  height: 20px;
+  background-image: url("images/calender.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .curr-day{
   background-color: #fff;
