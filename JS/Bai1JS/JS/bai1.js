@@ -36,7 +36,7 @@ function add_product(){
 
     var btn_close=document.createElement("img");
     btn_close.setAttribute("class","btn-close");
-    btn_close.setAttribute("src","btn_close.jpg");
+    btn_close.setAttribute("src","images/btn_close.jpg");
     btn_close.onclick= function() {
       var del = btn_close.parentNode;
       var parentDel = del.parentNode;
