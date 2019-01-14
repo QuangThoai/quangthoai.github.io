@@ -1,0 +1,30 @@
+.container{
+  width: 269px;
+  margin: 0 auto;
+}
+.list-topic{
+  width: 100%;
+  margin-top: -4px;
+}
+.content-hide{
+  display: none;
+}
+.btn-about{
+  margin-left: 70px;
+}
+.popup{
+  border: 3px solid #a67600;
+  background-color: #fff;
+  position: absolute;
+  top:0;
+  display: none;
+  width: 345px;
+  margin-left: -40px;
+}
+.close{
+  position: absolute;
+  top:-25px;
+  right: -20px;
+  display: inline;
+  cursor: pointer;
+}
