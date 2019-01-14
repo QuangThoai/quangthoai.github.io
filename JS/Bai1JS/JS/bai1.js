@@ -1,7 +1,10 @@
+// add product in list
 function add_product(){
     var name=document.getElementById("product_name").value;
     document.getElementById("product_name").focus();
     var x=name.trim().length;
+
+    //check length of name product
     if(x==0)
     {
         alert("Product can not null");
@@ -17,6 +20,7 @@ function add_product(){
     var product=document.createElement("div");
     product.setAttribute("class","list-product-index");
 
+    //check product exists
     for(var i=0; i<childr.length; i++)
     {
         if(childr[i].children[1].innerHTML == name)
@@ -37,6 +41,7 @@ function add_product(){
     var btn_close=document.createElement("img");
     btn_close.setAttribute("class","btn-close");
     btn_close.setAttribute("src","images/btn_close.jpg");
+    // Event delete when click into button close
     btn_close.onclick= function() {
       var del = btn_close.parentNode;
       var parentDel = del.parentNode;
@@ -50,4 +55,5 @@ function add_product(){
     product.appendChild(product_name);
     product.appendChild(btn_close);
     list_product.appendChild(product);
+    document.getElementById("product_name").value="";
 }
