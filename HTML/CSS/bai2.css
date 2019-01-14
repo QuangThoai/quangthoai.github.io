@@ -5,10 +5,10 @@
   padding: 0;
 }
 #container{
-  font-family: 'Times New Roman',Arial, serif;
+  font-family: "Times New Roman", san-serif;
   font-size: 12px;
   width: 1031px;
-  height: 585px;
+  height: auto;
   margin: 0 auto;
   background-color: #121214;
   margin-top: 39px;
