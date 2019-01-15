@@ -1,0 +1,57 @@
+.container{
+  width: 950px;
+  height: 598px;
+  margin: 0 auto;
+  background-image: url("images/bg_itm_lineup.jpg");
+  background-repeat: no-repeat;
+}
+.nav-top{
+  width: 100%;
+  padding-top: 100px;
+  height: 350px;
+}
+.nav-left{
+  margin: 0 auto;
+  width: 100px;
+  position: absolute;
+  padding-top: 120px;
+}
+.nav-left img{
+  float: right;
+}
+.nav-content{
+  width: 648px;
+  height: 350px;
+  float: left;
+  margin-left: 150px;
+  position:relative;
+  overflow: hidden;
+}
+.nav-right{
+  margin: 0px auto;
+  width: 100px;
+  float: right;
+  position: relative;
+  padding-top: 120px;
+}
+.nav-bot{
+  width: 770px;
+  height: 130px;
+  padding-left: 180px;
+}
+.list-items{
+  list-style: none;
+  width: 3800px;
+  margin-left: -40px;
+}
+.list-items li{
+  margin-left: -4px;
+  list-style: none;
+  display: inline-block;
+}
+img{
+  margin-left-left: -4px;
+}
+.nav-bot .list-items{
+  width: 950px;
+}
