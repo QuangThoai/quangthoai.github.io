@@ -8,6 +8,7 @@
   width: 316px;
   font-family: 'Times New Roman', Times, san-serif;
   margin: 0 auto;
+  padding-top: 16px;
 }
 .content{
   padding-top: 1px;
@@ -123,13 +124,17 @@
   position: relative;
   top: -22px;
 }
-a{
+.box-1 a{
   text-decoration: none;
   color: #0a6395;
 }
 .get-new{
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.get-new a{
+  text-decoration: none;
+  color: #0a6395;
 }
 .box-under{
   border: 1px solid #595959;
