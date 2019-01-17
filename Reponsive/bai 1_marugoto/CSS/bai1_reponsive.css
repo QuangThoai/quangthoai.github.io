@@ -1,0 +1,25 @@
+body{
+  background-color: #000;
+}
+.container{
+  margin: 0 auto;
+  width: 640px;
+  height: auto;
+  background-color: #fff;
+}
+.header{
+  width: 100%;
+  background-color: green;
+  height: 38px;
+  padding-top: 5px;
+  border-bottom: 1px solid #595959;
+}
+.header img{
+  padding-right: 10px;
+}
+.content-1{
+  width: 100%;
+}
+.content-1 .menu{
+  padding-left: 40%;
+}
