@@ -1,6 +1,5 @@
 $(document).ready(function () {
   $(document).scroll(function () {
-    alert($(this).height() -($(document).scrollTop() + $(window).height()));
     if($(this).height() -($(document).scrollTop() + $(window).height()) <=1)
     {
       $('.container').css({'color':'#fff','background':'#000'});
