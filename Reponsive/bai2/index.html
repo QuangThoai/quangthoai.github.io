@@ -5,6 +5,9 @@
 		<title>Bài 2 - Web Reponsive</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="CSS/bai2.css" rel="stylesheet">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+		<script lang="javascript" src="JavaScript/bai2.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -21,11 +24,12 @@
 				</div>
 				
 				<div class="row-1">
-					<p class="text-42">作品紹介</p>
+					<p class="text-42"><b>作品紹介</b></p>
 					<div class="box">
 						<div class="box-content">
 							<p class="text-24">「クロユリ団地」</p>
-							<img src="images/pic_content_01.jpg" alt="content_01">
+							<img src="images/pic_content_01.jpg" alt="content_01" id="pic_1">
+							<img src="images/pic_content_07.jpg" alt="content_07" id="pic_7" class="show" >
 							<p class="text-16">ハリウッドで活躍中の日本人監督が、老朽化した団地を舞台に描くホラー。
 								「出る」と噂される団地に何も知らずに越してきた二宮明日香。
 								隣室で孤独死した老人を発見した事を機に、彼女のまわりで怪現象が頻発する。
@@ -36,7 +40,7 @@
 					<div class="box">
 						<div class="box-content">
 							<p class="text-24">「こわい童謡 表の章」</p>
-							<img src="images/pic_content_02.jpg" alt="content_02">
+							<img src="images/pic_content_02.jpg" alt="content_02" id="pic_2">
 							<p class="text-16">
 								表と裏の二章からなる、童謡を題材にしたホラーサスペンス。
 								名門女子校の合唱部員・彩音。彼女は奇妙な幻聴に悩まされていた。
@@ -64,7 +68,8 @@
 					<div class="box">
 						<div class="box-content">
 							<p class="text-24">「呪怨（ビデオ版）」</p>
-							<img src="images/pic_content_03.jpg" alt="content_01">
+							<img src="images/pic_content_03.jpg" alt="content_03" id="pic_3">
+							<img src="images/pic_content_06.jpg" alt="content_06" id="pic_6" class="show">
 							<p class="text-16">ハリウッドでもリメイクされた名作ホラー「呪怨」シリーズの原点となる作品。
 								小学校教師・小林俊介は学校に来ない生徒・佐伯俊雄の家を訪ねた。
 								そこにはゴミにまみれた俊雄がひとりいるだけだった。小林は彼の母・伽耶子の帰りを待つことにするのだが…
@@ -75,7 +80,7 @@
 					<div class="box">
 						<div class="box-content">
 							<p class="text-24">「ゴメンナサイ」</p>
-							<img src="images/pic_content_04.jpg" alt="content_02">
+							<img src="images/pic_content_04.jpg" alt="content_02" id="pic_4">
 							<p class="text-16">
 								女子高生・由香のクラスには、「幽霊」と呼ばれるほど不気味な容姿の比那子がいた。
 								彼女は文化祭の脚本執筆が決まった事により、執拗ないじめを受けるようになる。
@@ -99,9 +104,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="footer">
-					<img src="images/pic_footer.jpg" alt="footer">
-				</div>
+				<img src="images/pic_blood.png" alt="blood" class="blood">
+				<img src="images/pic_footer.jpg" alt="footer" style="margin-bottom: -5px" class="footer">
 			</div>
 		</div>
 	</body>
