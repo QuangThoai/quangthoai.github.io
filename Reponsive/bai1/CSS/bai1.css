@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-width: 640px;
+  background-color: #fff;
+  height: 200px;
+}
+.header{
+  width: 100%;
+  margin: 0 auto;
+}
+.header img{
+  width: 100%;
+}
+.container{
+  width: 50%;
+  margin: 0 auto;
+  min-width: 620px;
+}
+.contain-header{
+  width: 100%;
+  font-size: 22px;
+}
+.title-1{
+  color: #df4e0e;
+}
+.title-2{
+  display: inline;
+  position: relative;
+  top: -20px;
+  margin-left: 10px;
+}
+.main-mess{
+  width: 100%;
+  background-image: url("images/pic_backgroundcontent.jpg");
+  background-size: cover;
+  //
+  //
+}
+.mess--top{
+  width: 100%;
+  height: 111px;
+  background-color: #d8d8d8;
+  opacity: 0.8;
+}
+.sound-all{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 24px;
+}
+.list-lang{
+  list-style: none;
+  font-size: 20px;
+  float:  right;
+  position: relative;
+  top:-50%;
+  padding-right: 20px;
+}
+.lang-eng{
+  color:#008098;
+}
+.mess-content{
+  width: 100%;
+}
+.mess-content .avatar{
+  position: relative;
+  left: 39%;
+}
+.row{
+  width: 100%;
+  display: inline-block;
+}
+.col-1{
+  width: 17.2%;
+  position: relative;
+  background-color: red;
+}
+.col-2{
+  width: 65.6%;
+  position: relative;
+  background-color: red;
+}
+.col-3{
+  width: 17.2%;
+  position: relative;
+  background-color: red;
+}
+.col-4{
+  width: 10%;
+}
+.col-5{
+  width: 40%;
+}
+.col-6{
+  width: 40%;
+}
+.col-7{
+  width: 10%;
+}
+.chat-ava-women{
+  width: 10%;
+  height: 80px;
+  float: left;
+  margin-right:30px;
+}
+.chat-ava-women img{
+  float: right;
+  position: relative;
+  top:50%;
+}
+.chat-content-women{
+  background: #fee8d2;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 24px;
+  position: relative;
+  float: left;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  clear: right;
+}
+.chat-sound{
+  width:10%;
+  height: 70px;
+  float: left;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.chat{
+  width: 90%;
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.chat-ava-men{
+  width: 10%;
+  height: 80px;
+  float: left;
+  margin-left:30px;
+}
+.row:after{
+  clear:right;
+}
+.chat-ava-men img{
+  float: left;
+  position: relative;
+  top:50%;
+}
+.chat-content-men{
+  background: #e2f3f2;
+  border-radius: 5px;
+  width:  75%;
+  font-size: 24px;
+  position: relative;
+  float: left;
+  margin-left: 30px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.chat-mid{
+  width:100%;
+  clear: both;
+}
+.chat-mid img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top:-10px;
+}
+.mess-footer{
+  width: 100%;
+}
+.footer--left{
+  width: 50px;
+  display: inline;
+  float: left;
+}
+.footer--right{
+  width: 50px;
+  display: inline;
+  float: right;
+}
+.footer--mid{
+  width: 540px;
+  padding-left: 100px;
+  display: inline;
+}
+
+.pDummy{
+  font-size: 20px;
+  color: #008098;
+}
+@media all and (min-width: 1280px) {
+  .header {
+    width: 100%;
+  }
+  .container {
+    width: 68%;
+  }
+  .contain-header {
+    font-size: 15px;
+  }
+  .list-lang {
+    top: -35%
+  }
+  .list-lang li {
+    display: inline-block;
+  }
+  .mess-content .avatar {
+    left: 45%;
+  }
+  .chat-ava-women {
+    width: 100%;
+  }
+  .chat-content-women {
+    width: 50%;
+    font-size: 17px;
+  }
+  .chat-ava-men{
+    width: 100%;
+  }
+  .chat-content-men{
+    width: 42%;
+    margin-left: 30%;
+    font-size: 17px;
+  }
+  .pDummy{
+    font-size: 17px;
+  }
+}
