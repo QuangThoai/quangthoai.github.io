@@ -1,7 +1,16 @@
+function getDocHeight() {
+  var D = document;
+  return Math.max (
+    D.body.scrollHeight,
+    D.documentEuity.scrollHeight(),
+    D.body.offsetHeight,
+    D.documentEuity.offsetHeight,
+    D.body.clientHeight,
+    D.documentEuity.clientHeight);
+}
 $(document).ready(function () {
   $(document).scroll(function () {
-    if($(this).height() -($(document).scrollTop() + $(window).height()) <=1)
-    {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
       $('.container').css({'color':'#fff','background':'#000'});
       $('.caption').css("background-color","#330000")
       $('.text-21').css("color","#fff");
@@ -15,7 +24,9 @@ $(document).ready(function () {
       $('.show').show();
       $("#pic_1").css("display","none");
       $('#pic_3').css("display","none");
-      $('body').animate({scollTop:0},5000,function () {
+      $('body').animate({ scrollTop: 0 },10000,function () {
+        window.scrollTo(0, 0);
+        setTimeout(function(){ $("body").show() }, 0);
         $('.container').css({'color':'#000','background':'#fff'});
         $('.caption').css("background-color","#333")
         $('.text-21').css("color","#fff");
