@@ -24,7 +24,7 @@ $(document).ready(function () {
       $('.show').show();
       $("#pic_1").css("display","none");
       $('#pic_3').css("display","none");
-      $('body').animate({ scrollTop: 0 },10000,function () {
+      $('body').animate({ scrollTop: 0 },5000,function () {
         window.scrollTo(0, 0);
         setTimeout(function(){ $("body").show() }, 0);
         $('.container').css({'color':'#000','background':'#fff'});
