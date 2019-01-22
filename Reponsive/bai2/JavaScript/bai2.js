@@ -1,13 +1,3 @@
-function getDocHeight() {
-  var D = document;
-  return Math.max (
-    D.body.scrollHeight,
-    D.documentEuity.scrollHeight(),
-    D.body.offsetHeight,
-    D.documentEuity.offsetHeight,
-    D.body.clientHeight,
-    D.documentEuity.clientHeight);
-}
 $(document).ready(function () {
   $(document).scroll(function () {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
