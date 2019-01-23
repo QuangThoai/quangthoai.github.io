@@ -3,7 +3,6 @@
   padding: 0;
 }
 body{
-  min-width: 640px;
   background-color: #fff;
   height: 200px;
 }
@@ -15,13 +14,14 @@ body{
   width: 100%;
 }
 .container{
-  width: 50%;
+  width: 75%;
   margin: 0 auto;
-  min-width: 620px;
+  min-width: 1280px;
+  font-size: 17px;
 }
 .contain-header{
   width: 100%;
-  font-size: 22px;
+  font-size: 15px;
 }
 .title-1{
   color: #df4e0e;
@@ -36,8 +36,6 @@ body{
   width: 100%;
   background-image: url("images/pic_backgroundcontent.jpg");
   background-size: cover;
-  //
-  //
 }
 .mess--top{
   width: 100%;
@@ -56,8 +54,11 @@ body{
   font-size: 20px;
   float:  right;
   position: relative;
-  top:-50%;
+  top: -35%;
   padding-right: 20px;
+}
+.list-lang li {
+  display: inline-block;
 }
 .lang-eng{
   color:#008098;
@@ -67,107 +68,91 @@ body{
 }
 .mess-content .avatar{
   position: relative;
-  left: 39%;
+  left: 45%;
 }
-
-
-
-
-
-
-
-
-
-.row{
-  width: 100%;
-  display: inline-block;
+.women{
+  margin-left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
-.col-1{
-  height: auto;
-  background-color: red;
-  display: inline;
+.women-chat-1{
+  width: 80%;
 }
-.col-1 img{
-    padding-left: 10%;
+.women-ava{
+  margin-right: 20px;
 }
-.col-2{
-  width: 65.6%;
-  display: inline;
-  background-color: blue;
-}
-.col-3{
-  width: 17.2%;
-  position: relative;
-  background-color: yellow;
-}
-.col-4{
-  width: 10%;
-}
-.col-5{
-  width: 40%;
-}
-.col-6{
-  width: 40%;
-}
-.col-7{
-  width: 10%;
-}
-.col-1 img{
-}
-.chat-ava-women img{
-  float: right;
-  position: relative;
-  top:50%;
-}
-.chat-content-women{
+.women-chat-content{
   background: #fee8d2;
   border-radius: 5px;
-  width: 80%;
-  font-size: 24px;
+  width: 62%;
   position: relative;
-  float: left;
-  padding-left: 20px;
-  margin-bottom: 10px;
-  clear: right;
-}
-.chat-sound{
-  width:10%;
-  height: 70px;
-  float: left;
-  position: relative;
+  padding: 1%;
+  line-height: 1.6;
   display: flex;
   align-items: center;
+  text-align: left;
 }
-.chat{
-  width: 90%;
-  float: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.women-chat-content:before{
+  content: " ";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 10px;
+  left: -13px;
+  border-left: 15px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 15px solid #fee8d2;
+  border-top: 15px solid transparent;
 }
-.chat-ava-men{
-  width: 10%;
-  height: 80px;
-  float: left;
-  margin-left:30px;
+.icon-sounds{
+  display: block;
 }
-.row:after{
-  clear:right;
+.content{
+  padding-left: 10px;
 }
-.chat-ava-men img{
-  float: left;
-  position: relative;
-  top:50%;
+.men{
+  margin-left:  10%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-bottom: 5px;
 }
-.chat-content-men{
+.men-chat-1{
+  width: 60.5%;
+  margin-left: 45%;
+}
+.men-ava{
+  margin-left: 20px;
+}
+.men-chat-content{
   background: #e2f3f2;
   border-radius: 5px;
-  width:  75%;
-  font-size: 24px;
+  width: 62%;
   position: relative;
-  float: left;
-  margin-left: 30px;
-  padding-left: 20px;
-  margin-bottom: 10px;
+  padding: 1%;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.men-chat-2{
+  width: 100%;
+}
+.women-chat-2{
+  width: 100%;
+}
+.men-chat-content:before{
+  content: " ";
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 10px;
+  right: -13px;
+  border-left: 0px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #e2f3f2;
+  border-top: 15px solid transparent;
 }
 .chat-mid{
   width:100%;
@@ -178,66 +163,135 @@ body{
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  top:-10px;
+  top:-4px;
+}
+.row-1{
+  width: 100%;
+  display: inline-block;
+}
+.row-2{
+  width: 100%;
+}
+.col-left{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+.col-left .men{
+  margin-left: 0;
+}
+.col-left .women{
+  margin-left: 0;
+}
+.col-left .men-chat-content{
+  width: 80%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.col-left .women-chat-content{
+  width: 80%;
+  margin-bottom: 5px;
+}
+.col-right{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+}
+.col-right .men-chat-content{
+  width: 80%;
+}
+.col-right .women-chat-content{
+  width: 80%;
+  margin-bottom: 5px;
 }
 .mess-footer{
   width: 100%;
 }
-.footer--left{
-  width: 50px;
-  display: inline;
-  float: left;
-}
-.footer--right{
-  width: 50px;
-  display: inline;
-  float: right;
-}
 .footer--mid{
-  width: 540px;
-  padding-left: 100px;
-  display: inline;
+  width: 100%
 }
-
 .pDummy{
   font-size: 20px;
   color: #008098;
 }
-@media all and (min-width: 1280px) {
-  .header {
-    width: 100%;
-  }
+span{
+  background-color: #fff;
+}
+.hide{
+  display: none;
+}
+.double-content{
+  display: list-item;
+}
+hr{
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid #008098;
+}
+@media all and (max-width: 1280px) {
   .container {
-    width: 68%;
+    width: 100%;
+    font-size: 24px;
+    min-width: 640px;
+    max-width: 640px;
   }
   .contain-header {
-    font-size: 15px;
+    font-size: 22px;
   }
   .list-lang {
-    top: -35%
+    top:-50%;
   }
   .list-lang li {
-    display: inline-block;
+    display: block;
   }
   .mess-content .avatar {
-    left: 45%;
+    left: 39%;
   }
-  .chat-ava-women {
+  .women{
+    margin-left: 3%;
+  }
+  .women-chat-1{
+    width: 95%;
+  }
+  .women-chat-content{
+    width: 85%;
+  }
+  .men-chat-1{
+    width: 95%;
+  }
+  .men-chat-2{
+    width: 95%;
+    padding-left: 5%;
+  }
+  .women-chat-2{
+    width: 95%;
+    padding-left: 5%;
+  }
+  .col-left{
+    margin-left: 0;
+  }
+  .men-chat-content{
+    width: 85%;
+  }
+  .chat-mid img{
+    margin-top: -2px;
+  }
+  .men{
+    margin-left: 3%;
+  }
+  .hide{
+    display: inline-block;
+  }
+  .col-left{
     width: 100%;
   }
-  .chat-content-women {
-    width: 50%;
-    font-size: 17px;
+  .col-left .men-chat-content{
+    width: 80%;
   }
-  .chat-ava-men{
-    width: 100%;
+  .col-right{
+    display: none;
   }
-  .chat-content-men{
-    width: 42%;
-    margin-left: 30%;
-    font-size: 17px;
-  }
-  .pDummy{
-    font-size: 17px;
+  .hide-footer{
+    display: none;
   }
 }
