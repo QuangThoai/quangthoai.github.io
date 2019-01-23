@@ -222,7 +222,6 @@ hr{
   margin: 0 auto;
   border: 2px solid #008098;
 }
-
 @media all and (max-width: 1280px) {
   .container {
     width: 100%;

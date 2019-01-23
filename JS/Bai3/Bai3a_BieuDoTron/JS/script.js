@@ -12,7 +12,7 @@ var Piechart = function(options){
   this.canvas.width=1000;
   this.canvas.height=500;
   this.ctx = this.canvas.getContext("2d");
-  this.ctx.scale(1,0.6);
+  this.ctx.scale(1,0.4);
   this.colors = options.colors;
   this.draw = function(){
     for (var i = 0; i < 100; i++) {
@@ -60,7 +60,7 @@ var Piechart = function(options){
     }
     draw_text_fail(this.ctx,this.colors[0],this.options.data,this.canvas.width / 2 + 100 ,
       this.canvas.width / 2 + 160,this.canvas.height / 2 + 100,
-      this.canvas.height / 2 -50,this.canvas.width / 2 + 400
+      this.canvas.height / 2 -50,this.canvas.width / 2 + 600
     );
     draw_text_pass(this.ctx,this.colors[1],this.options.data);
     draw_title(this.ctx);
@@ -77,7 +77,7 @@ function draw_text_fail(ctx,colors,data,pointX1,pointX2,pointY1,pointY2,pointX3)
   ctx.lineTo(pointX2 , pointY2);
   ctx.moveTo(pointX2, pointY2);
   ctx.lineTo(pointX3 , pointY2);
-  ctx.fillText(data.fail * 100 + " % chưa đạt", pointX2 +20, pointY2 -20);
+  ctx.fillText(data.fail * 100 + " % chưa đạt", pointX2 +100, pointY2 -20);
   ctx.stroke();
   ctx.closePath();
 }
@@ -85,10 +85,10 @@ function draw_text_pass(ctx,colors,data) {
   ctx.beginPath();
   ctx.strokeStyle=colors;
   ctx.moveTo(400, 300);
-  ctx.lineTo(350 , 200);
-  ctx.moveTo(350, 200);
-  ctx.lineTo(100 , 200);
-  ctx.fillText(data.pass * 100 + " % chưa đạt", 120, 180);
+  ctx.lineTo(300 , 200);
+  ctx.moveTo(300, 200);
+  ctx.lineTo(50 , 200);
+  ctx.fillText(data.pass * 100 + " % chưa đạt", 50, 180);
   ctx.stroke();
   ctx.closePath();
 }
