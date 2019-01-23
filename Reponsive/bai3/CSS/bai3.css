@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+.containner{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.row{
+  width: 100%;
+  position: relative;
+  clear: both;
+}
+.col{
+  position: relative;
+  float: left;
+  width: 50%;
+  clear: right;
+}
+.btn-left{
+  position: absolute;
+  left: 12.5%
+}
+.btn-right{
+  position: absolute;
+  right: 12.5%
+}
+.btn-center{
+  position: absolute;
+  left: 29.2%;
+  top: 14.4%;
+}
+.btn-content-4-1{
+  position: absolute;
+  left: 47.83%;
+  top: 78.78%;
+}
+.btn-content-4-2{
+  position: absolute;
+  left: 25.33%;
+  top: 78.78%;
+}
+@media all and (max-width: 1200px){
+  .containner{
+    max-width: 640px;
+  }
+  .btn-left {
+    position: absolute;
+    left: 6.72%;
+  }
+  .btn-right {
+    position: absolute;
+    right: 6.72%;
+  }
+  .btn-center{
+    position: absolute;
+    left: 5.6%;
+    top: 11.8%;
+  }
+  .col{
+    width: 100%;
+  }
+  .btn-content-4-1{
+    position: absolute;
+    left: 9.2%;
+    top: 72.9545455%;
+  }
+  .btn-content-4-2{
+    position: absolute;
+    left: 9.2%;
+    top: 72.5%;
+  }
+}
+@media all and (max-width: 640px){
+  .containner{
+    min-width: 320px;
+  }
+  .btn-center{
+    position: absolute;
+    left: 6.7%;
+    top: 11.8%;
+  }
+  .btn-content-4-1{
+    position: absolute;
+    left:11%;
+    top: 72.9545455%;
+    display: none;
+  }
+  .btn-content-4-2{
+    position: absolute;
+    left: 11%;
+    top: 72.5%;
+    display: none;
+  }
+}

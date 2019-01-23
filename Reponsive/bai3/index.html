@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Bài 3 - Web Reponsive</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="CSS/bai3.css" rel="stylesheet">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+	</head>
+	<body>
+		<div class="containner">
+			<div class="row">
+				<picture>
+					<source srcset="images/PC/bnr_header_pc.jpg" media="(min-width: 1200px)">
+					<source srcset="images/SP/bnr_header_sp.jpg">
+					<img src="images/PC/bnr_header_pc.jpg" alt="header">
+				</picture>
+			</div>
+			<div class="row">
+				<picture>
+					<source srcset="images/PC/pic_content_pc_1.jpg" media="(min-width: 1200px)">
+					<source srcset="images/SP/pic_content_sp_1.jpg">
+					<img src="images/PC/pic_content_pc_1.jpg" alt="content_1">
+				</picture>
+			</div>
+			<div class="row">
+				<picture>
+					<source srcset="images/PC/pic_content_pc_2.jpg" media="(min-width: 1200px)">
+					<source srcset="images/SP/pic_content_sp_2.jpg">
+					<img src="images/PC/pic_content_pc_2.jpg" alt="content_1">
+				</picture>
+				<a href="#">
+					<picture>
+						<source srcset="images/PC/pic_content_pc_2_01.jpg" media="(min-width: 1200px)">
+						<source srcset="images/SP/pic_content_sp_2_01.jpg">
+						<img src="images/PC/pic_content_pc_2_01.jpg" alt="content_2_1" class="btn-left" >
+					</picture>
+				</a>
+				<a href="#">
+					<picture>
+						<source srcset="images/PC/pic_content_pc_2_02.jpg" media="(min-width: 1200px)">
+						<source srcset="images/SP/pic_content_sp_2_02.jpg">
+						<img src="images/PC/pic_content_pc_2_02.jpg" alt="content_2_2" class="btn-right" >
+					</picture>
+				</a>
+			</div>
+			<div class="row">
+				<picture>
+					<source srcset="images/PC/pic_content_pc_3.jpg" media="(min-width: 1200px)">
+					<source srcset="images/SP/pic_content_sp_3.jpg">
+					<img src="images/PC/pic_content_pc_3.jpg" alt="content_1">
+				</picture>
+			</div>
+			<div class="row">
+				<div class="col">
+						<picture>
+							<source srcset="images/PC/pic_content_pc_4_1.jpg" media="(min-width: 1200px)">
+							<source srcset="images/SP/pic_content_sp_4_1.jpg">
+							<img src="images/PC/pic_content_pc_4_1.jpg">
+						</picture>
+						<a href="http://net.glico.jp/ringo-y/product/ringo.html">
+							<picture>
+								<source srcset="images/PC/pic_content_pc_4_1_center.jpg" media="(min-width: 1200px)">
+								<source srcset="images/SP/pic_content_sp_4_1_center.jpg">
+								<img src="images/PC/pic_content_pc_4_1_center.jpg" class="btn-content-4-1">
+							</picture>
+						</a>
+				</div>
+				<div class="col">
+					<picture>
+						<source srcset="images/PC/pic_content_pc_4_2.jpg" media="(min-width: 1200px)">
+						<source srcset="images/SP/pic_content_sp_4_2.jpg">
+						<img src="images/PC/pic_content_pc_4_2.jpg">
+					</picture>
+					<a href="http://net.glico.jp/ringo-y/product/orange.html">
+						<picture>
+							<source srcset="images/PC/pic_content_pc_4_2_center.jpg" media="(min-width: 1200px)">
+							<source srcset="images/SP/pic_content_sp_4_2_center.jpg">
+							<img src="images/PC/pic_content_pc_4_2_center.jpg" class="btn-content-4-2">
+						</picture>
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<picture>
+					<source srcset="images/PC/pic_content_pc_5.jpg" media="(min-width: 1200px)">
+					<source srcset="images/SP/pic_content_sp_5.jpg">
+					<img src="images/PC/pic_content_pc_5.jpg">
+				</picture>
+			</div>
+			<div class="row">
+				<div class="col">
+					<picture>
+						<source srcset="images/PC/pic_content_pc_6_1.jpg" media="(min-width: 1200px)">
+						<source srcset="images/SP/pic_content_sp_6_1.jpg">
+						<img src="images/PC/pic_content_pc_6_1.jpg">
+					</picture>
+				</div>
+				<div class="col">
+					<picture>
+						<source srcset="images/PC/pic_content_pc_6_2.jpg" media="(min-width: 1200px)">
+						<source srcset="images/SP/pic_content_sp_6_2.jpg">
+						<img src="images/PC/pic_content_pc_6_2.jpg">
+					</picture>
+				</div>
+				<div class="col">
+					<picture>
+						<source srcset="images/PC/pic_content_pc_6_3.jpg" media="(min-width: 1200px)">
+						<source srcset="images/SP/pic_content_sp_6_3.jpg">
+						<img src="images/PC/pic_content_pc_6_3.jpg">
+					</picture>
+				</div>
+				<div class="col">
+					<picture>
+						<source srcset="images/PC/pic_content_pc_6_4.jpg" media="(min-width: 1200px)">
+						<source srcset="images/SP/pic_content_sp_6_4.jpg">
+						<img src="images/PC/pic_content_pc_6_4.jpg">
+					</picture>
+				</div>
+			</div>
+			<div class="row">
+				<picture>
+					<source srcset="images/PC/pic_content_pc_7.jpg" media="(min-width: 1200px)">
+					<source srcset="images/SP/pic_content_sp_7.jpg">
+					<img src="images/PC/pic_content_pc_7.jpg">
+				</picture>
+			</div>
+			<div class="row">
+				<picture>
+					<source srcset="images/PC/pic_content_pc_8.jpg" media="(min-width: 1200px)">
+					<source srcset="images/SP/pic_content_sp_8.jpg">
+					<img src="images/PC/pic_content_pc_8.jpg">
+				</picture>
+				<a href="https://www.facebook.com/tweetyjapan">
+					<picture>
+						<source srcset="images/PC/pic_content_pc_8_center.jpg" media="(min-width: 1200px)">
+						<source srcset="images/SP/pic_content_sp_8_center.jpg">
+						<img src="images/PC/pic_content_pc_8_center.jpg" alt="content_1" class="btn-center">
+					</picture>
+				</a>
+			</div>
+			<div class="row">
+				<picture>
+					<source srcset="images/PC/bnr_footer_pc.jpg" media="(min-width: 1200px)">
+					<source srcset="images/SP/bnr_footer_sp.jpg">
+					<img src="images/PC/bnr_footer_pc.jpg">
+				</picture>
+			</div>
+		</div>
+	</body>
+</html>
