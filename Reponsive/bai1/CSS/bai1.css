@@ -69,24 +69,36 @@ body{
   position: relative;
   left: 39%;
 }
+
+
+
+
+
+
+
+
+
 .row{
   width: 100%;
   display: inline-block;
 }
 .col-1{
-  width: 17.2%;
-  position: relative;
+  height: auto;
   background-color: red;
+  display: inline;
+}
+.col-1 img{
+    padding-left: 10%;
 }
 .col-2{
   width: 65.6%;
-  position: relative;
-  background-color: red;
+  display: inline;
+  background-color: blue;
 }
 .col-3{
   width: 17.2%;
   position: relative;
-  background-color: red;
+  background-color: yellow;
 }
 .col-4{
   width: 10%;
@@ -100,11 +112,7 @@ body{
 .col-7{
   width: 10%;
 }
-.chat-ava-women{
-  width: 10%;
-  height: 80px;
-  float: left;
-  margin-right:30px;
+.col-1 img{
 }
 .chat-ava-women img{
   float: right;
