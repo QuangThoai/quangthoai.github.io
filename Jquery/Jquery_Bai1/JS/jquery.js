@@ -4,44 +4,39 @@ $(document).ready(function(){
   var preclick;
     $('.topic-title').click(function(){
       if(status_popup==0) {
-        var index = $(this).attr('id');
+        var index = $('.list-topic .topic-title').index($(this));
         check_down(index, preclick);
         preclick = index;
         if (clickcount % 2 == 0) {
-          $("#" + index).attr('src', "images/about" + index + "_mb.jpg");
-          $("#content" + index).slideUp(500);
+          $(this).attr('src', "images/about" + (index+1) + "_mb.jpg");
+          $('.content-hide').eq(index).animate({height:"toggle"},500);
         } else {
-          $("#" + index).attr('src', 'images/about' + index + '_mb_hover.jpg');
-          $("#content" + index).slideDown(500);
+          $(this).attr('src', 'images/about' + (index+1) + '_mb_hover.jpg');
+          $('.content-hide').eq(index).animate({height:"toggle"},500);
         }
         clickcount++;
       }
     });
+  $('.btn-about').click(function () {
+    if(status_popup==0) {
+      status_popup = 1;
+      $(".popup").eq(preclick % 2).animate({
+        top: "100",
+      }, 500);
+    }
+  });
+  $('.close').click(function () {
+    status_popup=0;
+    $(".popup").eq(preclick % 2).animate({
+      top: "-300",
+    },500);
+  });
 });
-$('.btn-about').click(function () {
-  if(status_popup==0) {
-    status_popup = 1;
-    var index = $(this).parent().attr('id');
-    index = index.substr(index.length - 1, 1);
-    $("#popup" + index % 2).animate({
-      top: "+=100",
-      height: "toggle"
-    }, 500);
-  }
-});
-$('.close').click(function () {
-  status_popup=0;
-  var index=$(this).parent().attr('id');
-  index=index.substr(index.length-1,1);
-  $("#popup"+index%2).animate({
-    top: "-=100",
-    height: "toggle"
-  },0);
-});
+
 function check_down(index,preclick) {
   if (index != preclick) {
-    $("#"+preclick).attr('src',"images/about"+preclick+"_mb.jpg");
-    $("#content"+preclick).slideUp(500);
+    $('.topic-title').eq(preclick).attr('src',"images/about"+(preclick+1)+"_mb.jpg");
+    $('.content-hide').eq(preclick).slideUp(500);
     clickcount=1;
   }
 }

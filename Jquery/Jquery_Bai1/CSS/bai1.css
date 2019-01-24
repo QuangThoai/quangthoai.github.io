@@ -4,22 +4,39 @@
 }
 .list-topic{
   width: 100%;
-  margin-top: -4px;
+}
+img{
+  font-size: 0;
+  margin-bottom: -4px;
 }
 .content-hide{
   display: none;
+  text-align: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-left: 2px solid #a27c21;
+  border-right: 2px solid #a27c21;
+}
+.content-end{
+  border-bottom: 2px solid #a27c21;
+}
+.title{
+  font-size: 35px;
+  color: #a27c21;
+  font-weight: bold;
 }
 .btn-about{
-  margin-left: 70px;
+  margin: 0 auto;
 }
 .popup{
   border: 3px solid #a67600;
   background-color: #fff;
   position: absolute;
-  top:0;
-  display: none;
+  top:-300px;
   width: 345px;
   margin-left: -40px;
+  text-align: center;
 }
 .close{
   position: absolute;
