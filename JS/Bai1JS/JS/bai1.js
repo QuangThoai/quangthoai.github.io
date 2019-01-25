@@ -29,10 +29,6 @@ function add_product(){
           return;
         }
     }
-    //create product in list
-    var index=document.createElement("p");
-    index.setAttribute("class","index-product");
-    index.innerHTML=childr.length +1;
 
     var product_name=document.createElement("span");
     product_name.setAttribute("class","product-name");
@@ -51,7 +47,6 @@ function add_product(){
         parentDel.children[i].children[0].innerHTML = i + 1;
       }
     }
-    product.appendChild(index);
     product.appendChild(product_name);
     product.appendChild(btn_close);
     list_product.appendChild(product);
