@@ -36,7 +36,7 @@ function showcalendar() {
   var navcalendar=document.getElementById("nav_calendar");
   var table=document.getElementById("calendar");
   if(status==0){
-    if(contain.children.length==2) {
+    if(contain.children.length>=2) {
       create_calendar();
       document.getElementById("nav_calendar").classList.remove("navcalendar");
       status=1;

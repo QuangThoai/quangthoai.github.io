@@ -14,6 +14,10 @@
   display: flex;
   justify-content: space-around;
 }
+.leaf{
+  position: absolute;
+  top:-100px;
+}
 .khoi-1,.khoi-2,.khoi-3,.khoi-4,.khoi-5{
   height: 50px;
   width: 50px;

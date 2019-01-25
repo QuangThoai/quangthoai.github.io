@@ -48,7 +48,7 @@
   font-size: 20px;
   float:  right;
   position: relative;
-  top: -35%;
+  top: -40px;
   padding-right: 20px;
 }
 .list-lang li {
@@ -62,7 +62,7 @@
 }
 .mess-content .avatar{
   position: relative;
-  left: 45%;
+  left: 42.5%;
 }
 .women{
   margin-left: 10%;
@@ -101,6 +101,7 @@
 }
 .icon-sounds{
   display: block;
+  cursor: pointer;
 }
 .content{
   padding-left: 10px;
@@ -151,6 +152,7 @@
 .chat-mid{
   width:100%;
   clear: both;
+  margin-top: -8px;
 }
 .chat-mid img{
   display: block;
@@ -159,9 +161,16 @@
   position: relative;
   top:-4px;
 }
+.man-smile-sad{
+  display: none;
+}
+.lang-hide{
+  display: none;
+}
 .row-1{
   width: 100%;
   display: inline-block;
+  margin-top: 7px;
 }
 .row-2{
   width: 100%;
@@ -181,6 +190,7 @@
   width: 80%;
   margin-bottom: 5px;
   margin-top: 5px;
+  margin-left: 18%;
 }
 .col-left .women-chat-content{
   width: 80%;
@@ -272,6 +282,13 @@ hr{
   }
   .chat-mid img{
     margin-top: -2px;
+    display: inline-block;
+  }
+  .man-smile-sad{
+    display: inline-block;
+  }
+  .man-smile-sad img{
+    padding-left: 130px;
   }
   .men{
     margin-left: 3%;
@@ -284,9 +301,11 @@ hr{
   }
   .col-left .men-chat-content{
     width: 80%;
+    margin-left: 0;
   }
   .col-right{
     display: none;
+    width: 90%;
   }
   .hide-footer{
     display: none;

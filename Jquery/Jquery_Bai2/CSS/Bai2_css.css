@@ -18,6 +18,7 @@
 }
 .nav-left img{
   float: right;
+  cursor: pointer;
 }
 .nav-content{
   width: 648px;
@@ -28,11 +29,14 @@
   overflow: hidden;
 }
 .nav-right{
-  margin: 0px auto;
+  margin: 0 auto;
   width: 100px;
   float: right;
   position: relative;
   padding-top: 120px;
+}
+.nav-right img{
+  cursor: pointer;
 }
 .nav-bot{
   width: 770px;
@@ -49,9 +53,10 @@
   list-style: none;
   display: inline-block;
 }
-img{
-  margin-left-left: -4px;
-}
+
 .nav-bot .list-items{
   width: 950px;
+}
+.nav-bot .list-items img{
+  cursor: pointer;
 }
