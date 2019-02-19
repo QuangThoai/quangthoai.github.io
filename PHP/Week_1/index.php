@@ -103,8 +103,6 @@
 	*/
 	function intersectArray($array1,$array2){
   	$result=array_intersect($array1,$array2);
-//  	print_r($array2);
-//    print_r($array1);
   	sort($result);
     echo "<b>" .implode(',',$result)."</b>";
 	}
@@ -117,18 +115,9 @@
 	function keyNotInArray($array1,$array2){
   	$array1 =array_flip($array1);
 		$result=array_diff($array1,$array2);
-//		print_r($array1);
-//    print_r($array2);
     $result=array_flip($result);
 		sort($result);
 		$result=array_reverse($result);
 		echo "<b>" .implode(',',$result)."</b>";
 	}
 ?>
-<br/>
-/**
- * Created by PhpStorm.
- * User: Quay
- * Date: 14/02/2019
- * Time: 9:20 SA
- */
