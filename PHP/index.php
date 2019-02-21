@@ -18,6 +18,11 @@
 					Bài tập 1 ( String )
 				</a>
 			</li>
+			<li>
+				<a href="Week_2/bai2.php">
+					Bài tập 2 ( Demo upload file )
+				</a>
+			</li>
     </ul>
   </li>
 </ul>
