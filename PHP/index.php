@@ -23,6 +23,21 @@
 					Bài tập 2 ( Demo upload file )
 				</a>
 			</li>
+			<li>
+				<a href="Week_2/bai3_1.php">
+					Bài tập 3_1 ( Demo ajax basic )
+				</a>
+			</li>
+			<li>
+				<a href="Week_2/bai3_2.php">
+					Bài tập 3_2 ( Demo ajax number array )
+				</a>
+			</li>
+			<li>
+				<a href="Week_2/bai3_3.php">
+					Bài tập 3_3 ( Demo ajax upload file with progress bar )
+				</a>
+			</li>
     </ul>
   </li>
 </ul>
