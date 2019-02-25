@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #4a6f80;
+}
+input {
+  display: block;
+}
+button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.box-upload {
+  width: 50%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 10px;
+}
+.progress {
+  padding: 2px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: none;
+}
+.progress-bar {
+  background-color: #1cca26;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 0;
+  width: 0;
+}
+button.btn-submit {
+  background-color: #428bca;
+  border: 1px solid #428bca;
+  color: #fff;
+}
+.status {
+  display: none;
+  background-color: #d9534f;
+  color: #fff;
+  padding: 7px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.success {
+  background-color: #5cb85c;
+}

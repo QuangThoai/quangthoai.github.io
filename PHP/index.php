@@ -40,4 +40,29 @@
 			</li>
     </ul>
   </li>
+	<li>
+		Tuần 3
+		<ul>
+			<li>
+				<a href="Week_3/bai1.php">
+					Bài tập 1 ( Upload file + read file text )
+				</a>
+			</li>
+			<li>
+				<a href="Week_3/bai2.php">
+					Bài tập 2 ( Read File SplFileObject)
+				</a>
+			</li>
+			<li>
+				<a href="Week_3/bai3.php">
+					Bài tập 3 (	Create file csv )
+				</a>
+			</li>
+			<li>
+				<a href="Week_3/bai4.php">
+					Bài tập 4
+				</a>
+			</li>
+		</ul>
+	</li>
 </ul>
