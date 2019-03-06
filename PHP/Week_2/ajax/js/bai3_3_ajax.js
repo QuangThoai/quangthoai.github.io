@@ -32,7 +32,7 @@ $(document).ready(function () {
           else
           {
             $status.addClass('success');
-            $status.html('Upload file successfully!');
+            $status.html(result);
           }
         }
         }

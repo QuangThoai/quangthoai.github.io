@@ -68,6 +68,41 @@
 					Bài tập 5 (Mail)
 				</a>
 			</li>
+			<li>
+				<a href="Week_3/Cookie/cookie_php.php">
+					Bài tập Cookie (PHP)
+				</a>
+			</li>
+			<li>
+				<a href="Week_3/Cookie/cookie_js.php">
+					Bài tập Cookie (JS)
+				</a>
+			</li>
+			<li>
+				<a href="Week_3/Session/index.php">
+					Bài tập Session
+				</a>
+			</li>
+			<li>
+				<a href="Week_3/SessionDB/index.php">
+					Bài tập SessionDB
+				</a>
+			</li>
+		</ul>
+	</li>
+	<li>
+		Tuần 4
+		<ul>
+			<li>
+				<a href="Week_4/www/domain1/Ex1_Session">
+					WebSite giả lập 1 domain 1
+				</a>
+			</li>
+			<li>
+				<a href="Week_4/www/domain2/Ex1_Session">
+					WebSite giả lập 2 domain 2
+				</a>
+			</li>
 		</ul>
 	</li>
 </ul>
