@@ -1,0 +1,8 @@
+ [2019-03-11 11:13:36] [Emergency] : This is log of emergency
+ [2019-03-11 11:13:36] [Alert] : This is log of alert
+ [2019-03-11 11:13:36] [Critical] : This is log of critical
+ [2019-03-11 11:13:36] [Error] : This is log error
+ [2019-03-11 11:13:36] [Warning] : This is log warning
+ [2019-03-11 11:13:36] [Notice] : This is log notice
+ [2019-03-11 11:13:36] [Info] : This is log info
+ [2019-03-11 11:13:36] [Debug] : This is log debug
